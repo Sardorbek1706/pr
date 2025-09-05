@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<form id="calcForm" class="card">
+<div id="resultBox" class="result"> <strong>Result:</strong> <span id="result"></span></div>
+
+
+<label for="num1">Number 1:</label>
+<input type="number" id="num1" placeholder="Enter First Number" required>
+
+
+<label for="num2">Number 2:</label>
+<input type="number" id="num2" placeholder="Enter Second Number" required>
+
+
+<label for="operator">Operator</label>
+<select id="operator" required>
+<option value="">Choose Operator</option>
+<option value="+">+</option>
+<option value="-">−</option>
+<option value="*">×</option>
+<option value="/">÷</option>
+</select>
+
+
+<button type="submit" class="btn btn-calc">Calculate</button>
+<button type="button" id="resetBtn" class="btn btn-reset">Reset</button>
+</form>
+</div>
+
+
+<script src="2.js"></script>
+</body>
+</html>

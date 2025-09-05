@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <h1 class="title">Ro'yxatdan o'tish</h1>
+    <div id="alerts" class="alerts"></div>
+
+    <div class="container">
+      <div class="form-card">
+        <form id="signupForm" novalidate>
+          <div class="form-group">
+            <label for="firstName">Ism</label>
+            <input type="text" id="firstName" name="firstName" required />
+            <div class="error-message" id="firstNameError"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="lastName">Familiya</label>
+            <input type="text" id="lastName" name="lastName" required />
+            <div class="error-message" id="lastNameError"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="signupEmail">Email</label>
+            <input type="email" id="signupEmail" name="email" required />
+            <div class="error-message" id="signupEmailError"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="signupPassword">Parol</label>
+            <input type="password" id="signupPassword" name="password" required />
+            <div class="error-message" id="signupPasswordError"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="confirmPassword">Parol (tasdiqlang)</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required />
+            <div class="error-message" id="confirmPasswordError"></div>
+          </div>
+
+          <button type="submit" id="signupBtn">Ro'yxatdan o'tish</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="3.js"></script>
+</body>
+</html>

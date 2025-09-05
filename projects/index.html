@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Simple Counter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Counter</h1>
+
+
+<div class="card">
+<div class="counter" aria-live="polite">
+<span id="value">0</span>
+</div>
+
+
+<div class="controls">
+<button id="decrease" class="btn" aria-label="Kamaytir">−</button>
+<button id="increase" class="btn" aria-label="Ko'paytir">+</button>
+<button id="reset" class="btn icon-btn" aria-label="Qayta o'rnatish" title="Reset">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M12 5V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 3.31-2.69 6-6 6s-6-2.69-6-6H6c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" fill="currentColor"/>
+</svg>
+</button>
+</div>
+</div>
+
+
+<p class="hint">Klaviatura: <kbd>+</kbd> yoki <kbd>=</kbd> — ko'paytir, <kbd>-</kbd> — kamaytir, <kbd>r</kbd> — reset.</p>
+</div>
+
+
+<script src="/1.js"></script>
+</body>
+</html>
